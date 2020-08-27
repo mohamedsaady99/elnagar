@@ -1,0 +1,103 @@
+.skills{
+    color: #007bff;
+    margin: 40px 0;
+}
+.skills h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 40px;
+}
+.skills-group1 ,.skills-group2{
+    width: 45%;
+    float: left;
+ }
+ .skills-group1{
+     margin:0 48px;
+ }
+.skills .skillTitle{
+    font-weight: bold;
+}
+.skills  .progressBar{
+    height: 10px;
+    margin: 15px 0;
+    background-color: #007bff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation: moving 5s linear ;
+    -webkit-animation: moving 5s linear ;
+    -moz-animation: moving 5s linear ;
+    -ms-animation: moving 5s linear ;
+    -o-animation: moving 5s linear ;
+}
+.progressBar-1{
+    width: 95%;
+}
+.progressBar-2{
+    width: 90%;
+}
+.progressBar-3{
+    width: 85%;
+}
+.progressBar-4{
+    width: 80%;
+}
+.progressBar-5{
+    width: 75%;
+}
+.skills .progressBar span{
+    position: relative;
+    left: 90% ;
+}
+.skills span {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #007bff;
+    top: -37px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-align: center;
+    padding: 2px 0;
+    color: #007bff;
+    margin-bottom: 10px;
+} 
+.skills span::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    border: 4px solid #007bff;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+@keyframes moving {
+    10%
+    {
+        width: 10%;  
+    }
+    20%{
+        width: 20%;         
+    }
+    50%{
+        width: 50%;        
+    }
+    100%{
+        width: 90%;
+   }
+}

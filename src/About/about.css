@@ -1,0 +1,26 @@
+.about
+{
+    clear: both;
+    background-color: #e2e2e2;
+}
+.about-info
+{
+    background-color: #e2e2e2;
+    border: 5px dashed #007bff;
+}
+.about-info h2 {
+    color: #007bff;
+    margin: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.about img {
+    width: 100%;
+}
+p{
+    font-size: 20px;
+    padding: 0px 20px ;
+}
+span{
+    color: #007bff;
+}

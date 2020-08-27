@@ -1,0 +1,109 @@
+
+/*
+    ===============================
+            Navbar Styles
+    ===============================
+*/
+
+.navbar {
+    padding: 20px 0;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+
+.navbar .logo {
+    width: 50%;
+    float: left;
+}
+
+.navbar .logo img{
+    width: 200px;
+    height: 55px;
+}
+
+
+
+.navbar .ul-list {
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding: 0%;
+}
+
+.navbar .ul-list .list-item {
+    display: inline-block;
+}
+
+.navbar .ul-list .list-item a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navbar .ul-list .list-item a:hover {
+    color: #007bff;
+}
+.underline-from-left:active::before,
+.underline-from-left:focus::before
+, .underline-from-left:hover::before {
+    left: 0;
+    right: 0;
+}
+.underline-from-left {
+
+    position: relative;
+}
+.underline-from-left::before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    color: #7E60FA;
+    background: #007bff;
+    height: 2px;
+    -webkit-transition-property: left,right;
+    -moz-transition-property: left,right;
+    -ms-transition-property: left,right;
+    -o-transition-property: left,right;
+    transition-property: left,right;
+    -webkit-transition:.8s ease-out;
+    -moz-transition:.8s ease-out;
+    -ms-transition:.8s ease-out;
+    -o-transition:.8s ease-out;
+    transition:.8s ease-out;
+}
+ 
+ .selected{
+    color: #007bff !important;
+}
+/* Media for Navbar Style */ 
+
+@media (min-width : 992px) {
+    .navbar label {
+        display: none
+    }
+}
+
+@media (max-width : 991px) {
+    .navbar .logo {
+        width: 100%;
+        float: none;
+    }
+    
+    .navbar .ul-list {
+        width: 100%;
+        float:  none;
+        margin-top: 20px;
+        display: none
+    }
+    
+    .navbar .ul-list .list-item {
+        display: block;
+        text-align: center;
+    }
+}
