@@ -1,47 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b8c87607139d359830d6fbb62f56138",
+    "revision": "c3947ffa38d3f4d7d0e059d36e063cc5",
     "url": "/elnagar/index.html"
   },
   {
-    "revision": "8689115f6437b05becc5",
+    "revision": "82088d409c285408c506",
     "url": "/elnagar/static/css/2.98ca0a0f.chunk.css"
   },
   {
-    "revision": "bc6daffe69231359d71d",
+    "revision": "52ac188f790b9d1a67bc",
     "url": "/elnagar/static/css/main.aef2f23b.chunk.css"
   },
   {
-    "revision": "8689115f6437b05becc5",
-    "url": "/elnagar/static/js/2.a43feaf3.chunk.js"
+    "revision": "82088d409c285408c506",
+    "url": "/elnagar/static/js/2.da407a59.chunk.js"
   },
   {
     "revision": "ffa35a34964860fdc97ed79ca9abd27c",
-    "url": "/elnagar/static/js/2.a43feaf3.chunk.js.LICENSE.txt"
+    "url": "/elnagar/static/js/2.da407a59.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc6daffe69231359d71d",
-    "url": "/elnagar/static/js/main.79ff3d54.chunk.js"
+    "revision": "52ac188f790b9d1a67bc",
+    "url": "/elnagar/static/js/main.e82e6f6d.chunk.js"
   },
   {
     "revision": "ce117163b4fce7dd235b",
     "url": "/elnagar/static/js/runtime-main.1a2638c0.js"
   },
   {
-    "revision": "0fdf4c84ee9f64755c7789f5a628be69",
-    "url": "/elnagar/static/media/Onassis.0fdf4c84.png"
-  },
-  {
-    "revision": "c22ae405b0aaa87363ddef2d35ff2f35",
-    "url": "/elnagar/static/media/Portfolio.c22ae405.jpg"
-  },
-  {
     "revision": "81a8ad5fc4b73e4e4e9f3cec925799b8",
     "url": "/elnagar/static/media/create.81a8ad5f.jpg"
-  },
-  {
-    "revision": "0a7828f066b04b51a8cffa89524cbcc3",
-    "url": "/elnagar/static/media/dstt.0a7828f0.png"
   },
   {
     "revision": "bb167736db4e7c0e7635b65edf69c596",
