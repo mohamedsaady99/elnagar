@@ -4,10 +4,7 @@ import img1 from '../images/rima.jpg';
 import img2 from '../images/galaxy.jpg';
 import img3 from '../images/create.jpg';
 import img4 from '../images/roofing.jpg';
-import img5 from '../images/Portfolio.jpg';
 import img6 from '../images/ecommerce.png';
-import img7 from '../images/Onassis.png';
-import img8 from '../images/dstt.png';
 import $ from 'jquery';
 class Portfolio extends Component {
     componentDidMount(){
@@ -90,35 +87,35 @@ class Portfolio extends Component {
                                 <a className='btn btn-primary' href='https://elnagarwebsite.000webhostapp.com/'>Preview</a>
                                 <a className='btn btn-primary' href='#g'>Get Code</a>
                             </div>
-                            <img src={img1}/>
+                            <img src={img1} alt="Rima"/>
                         </div>
                         <div className=" col-md-4 jquery  bootstrap animate__bounceIn animate__delay-5s">
                             <div className='overlay'>
                                 <a className='btn btn-primary' href='https://elnagarwebsite.000webhostapp.com/galaxygroup/index.html'>Preview</a>
                                 <a className='btn btn-primary' href='#g'>Get Code</a>
                             </div>
-                            <img src={img2}/>
+                            <img src={img2} alt="Galaxy"/>
                         </div>
                         <div className=" col-md-4   bootstrap animate__bounceIn animate__delay-5s">
                             <div className='overlay'>
                                 <a className='btn btn-primary' href='https://create-studio.000webhostapp.com/'>Preview</a>
                                 <a className='btn btn-primary' href='#g'>Get Code</a>
                             </div>
-                            <img src={img3}/>
+                            <img src={img3} alt="create_studio"/>
                         </div>
                         <div className="col-md-4 jquery bootstrap animate__bounceIn animate__delay-5s">
                             <div className='overlay'>
                                 <a className='btn btn-primary' href='https://elnagarwebsite.000webhostapp.com/roofing/index.html'>Preview</a>
                                 <a className='btn btn-primary' href='#g'>Get Code</a>
                             </div>
-                            <img src={img4}/>
+                            <img src={img4} alt="Roofing"/>
                         </div>
                         <div className=" col-md-4  jquery  bootstrap animate__bounceIn animate__delay-5s">
                             <div className='overlay'>
                                 <a className='btn btn-primary' href='#p'>Preview</a>
                                 <a className='btn btn-primary' href='#g'>Get Code</a>
                             </div>
-                            <img src={img6}/>
+                            <img src={img6} alt="ecommerce"/>
                         </div>
                     </div>    
                </div>

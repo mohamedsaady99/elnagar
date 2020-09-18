@@ -17,7 +17,7 @@ class About extends Component {
                         
                </div>
                <div className='col-6'>
-                   <img src={myPhoto}/>
+                   <img src={myPhoto} alt="Myphoto"/>
                </div>
             </div>
         );

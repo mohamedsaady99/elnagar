@@ -1,9 +1,5 @@
 import React from 'react';
-import { Component } from 'react';
-import Navbar from './../NavBar/NavBar';
 import Home from './../Home/Home';
-import {BrowserRouter ,Route} from 'react-router-dom';
-import Styled from 'styled-components';
 import Profile from './../Profile/Profile';
 import Portfolio from './../Portfolio/Portfolio';
 import SocialMedia from './../SocialMedia/SocialMedia';

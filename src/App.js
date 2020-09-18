@@ -1,8 +1,6 @@
 import React from 'react';
-import { Component } from 'react';
 import Navbar from './NavBar/NavBar';
 import {BrowserRouter ,Route} from 'react-router-dom';
-import Styled from 'styled-components';
 import Contact from './Contact/Contact';
 import Index from './Index/Index';
 import SocialMedia from './SocialMedia/SocialMedia';
